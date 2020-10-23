@@ -1,0 +1,8 @@
+﻿  Source.cpp
+E:\Other Projects\SFML\Keyboard Input\Source.cpp(13,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Other Projects\SFML\Keyboard Input\Source.cpp(13,43): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Keyboard Input.vcxproj -> E:\Other Projects\SFML\x64\Debug\Keyboard Input.exe

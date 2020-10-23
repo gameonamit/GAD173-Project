@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\Other Projects\GAD173 Project\Collision Detection II\Source.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Other Projects\GAD173 Project\Collision Detection II\Source.cpp(19,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\GAD173 Project\Collision Detection II\Source.cpp(20,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Collision Detection II.vcxproj -> E:\Other Projects\GAD173 Project\x64\Debug\Collision Detection II.exe

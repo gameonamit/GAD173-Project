@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SFML\SingleFileProgram.cpp">
+    <ClCompile Include="..\SFML\MultiFileProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

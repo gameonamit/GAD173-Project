@@ -138,7 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MultiFileProgram.cpp" />
+    <ClCompile Include="SingleFileProgram.cpp" />
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>

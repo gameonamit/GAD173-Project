@@ -1,6 +1,7 @@
 #pragma once
-
 #include "SFML/Graphics.hpp"
+#include <iostream>
+
 //Global Variables
 //Declare an array of bricks
 const int ROWS = 3;
@@ -37,6 +38,10 @@ private:
 	float               gap;
 	float               brickLength;
 	float               brickHeight;
+	int                 score;
+
+	sf::Font font;
+	sf::Text atext;
 
 public:
 	App(const char* title, int screenWidth, int screenHeight, int screenBpp);
@@ -48,3 +53,7 @@ public:
 	void Update();
 	void Run();
 };
+
+
+// Load the font from a file
+

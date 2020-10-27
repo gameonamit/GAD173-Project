@@ -1,4 +1,7 @@
 #include "App.h"
+#include <sfml/Graphics.hpp>
+#include <iostream>
+
 
 // constructor
 App::App(const char* title, int screenWidth, int screenHeight, int screenBpp)
@@ -19,6 +22,21 @@ bool App::Init()
 	// random speed
 	xBallSpeed = rand() % 100 + 500;
 	yBallSpeed = rand() % 100 + 500;
+
+	if (!font.loadFromFile("Fonts/myfont.ttf"))
+	{
+		std::cout << "Error loading font" << std::endl;
+	}
+
+	//set up text properties
+	score = 0;
+	atext.setFont(font);
+	atext.setCharacterSize( 80 );
+	atext.setStyle(sf::Text::Bold);
+	atext.setFillColor(sf::Color::Green);
+	atext.setPosition(50, 30);
+	atext.setString(std::to_string(score));
+
 
 	//Ball.setPosition((window.getSize().x / 2) - radius, (window.getSize().y / 2) - radius);
 
@@ -111,6 +129,8 @@ void App::Update()
 			{
 				// destroy the brick
 				collidable[row][col] = false;
+				score++;
+				atext.setString(std::to_string(score));
 
 				// left or right border
 				if (
@@ -135,12 +155,12 @@ void App::Update()
 				}
 			}
 		}
-		//Detect Paddle Collision
-		if (Ball.getGlobalBounds().intersects(paddle.getGlobalBounds()))
-		{
-			xBallSpeed = (rand() % 500 + (-200));
-			yBallSpeed = -yBallSpeed;
-		}
+	}
+	//Detect Paddle Collision
+	if (Ball.getGlobalBounds().intersects(paddle.getGlobalBounds()))
+	{
+		xBallSpeed = (rand() % 500 + (-200));
+		yBallSpeed = -yBallSpeed;
 	}
 }
 
@@ -150,6 +170,7 @@ void App::Draw()
 	window.setView(view);
 	window.draw(Ball);
 	window.draw(paddle);	
+	window.draw(atext);
 	// draw the bricks
 	for (int row = 0; row < ROWS; ++row) {
 		for (int col = 0; col < COLS; ++col)

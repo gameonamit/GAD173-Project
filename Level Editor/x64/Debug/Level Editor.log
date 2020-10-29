@@ -1,5 +1,1 @@
-﻿  App.cpp
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(23,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(24,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(162,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  Level Editor.vcxproj -> E:\Other Projects\Gad173_Project_Repo\GAD173 Project\x64\Debug\Level Editor.exe
+﻿  Level Editor.vcxproj -> E:\Other Projects\Gad173_Project_Repo\GAD173 Project\x64\Debug\Level Editor.exe

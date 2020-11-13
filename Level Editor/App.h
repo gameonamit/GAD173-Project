@@ -1,6 +1,8 @@
 #pragma once
 #include "SFML/Graphics.hpp"
 #include <iostream>
+#include <fstream>
+#include <string>
 
 //Global Variables
 //Declare an array of bricks
@@ -20,7 +22,9 @@ private:
 	float				radius;
 	sf::CircleShape		Ball;
     sf::RectangleShape  paddle;
-	sf::RectangleShape  Bricks[ROWS][COLS];
+
+	//Pointer Array of Bricks
+	sf::RectangleShape **b;
 
 	// Check if brick has been hit
 	bool                collidable[ROWS][COLS];
@@ -38,10 +42,29 @@ private:
 	float               gap;
 	float               brickLength;
 	float               brickHeight;
-	int                 score;
 
+	int                 score;
 	sf::Font font;
 	sf::Text atext;
+	// declare
+	std::ofstream myfile;
+	std::ifstream newfile;
+
+	int buttonLength;
+	int buttonHeight;
+
+	sf::RectangleShape playButton;
+	sf::Text playBtnText;
+
+	sf::RectangleShape customLevelButton;
+	sf::Text customLevelBtnText;
+
+	sf::RectangleShape quitButton;
+	sf::Text quitBtnText;
+	bool levelPaused;
+
+	//Pointers
+
 
 public:
 	App(const char* title, int screenWidth, int screenHeight, int screenBpp);
@@ -52,6 +75,8 @@ public:
 	void Draw();
 	void Update();
 	void Run();
+	void StartLevel();
+	void InitializeArrayOfBricks();
 };
 
 

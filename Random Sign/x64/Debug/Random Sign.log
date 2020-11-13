@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Random Sign\Source.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Random Sign.vcxproj -> E:\Other Projects\Gad173_Project_Repo\GAD173 Project\x64\Debug\Random Sign.exe

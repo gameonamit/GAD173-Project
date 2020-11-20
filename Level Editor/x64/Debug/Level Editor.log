@@ -1,61 +1,147 @@
 ﻿  App.cpp
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(49,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(98,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(49,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(98,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(50,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(50,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(99,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(99,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(58,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(61,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(108,118): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(111,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(61,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(111,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(62,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(62,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(112,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(112,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(70,132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(73,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(121,144): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(124,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(73,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(124,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(74,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(74,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(125,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(125,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(82,118): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(87,79): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(133,134): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(136,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(136,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(137,97): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(91,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(92,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(243,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(137,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(145,127): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(153,123): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(161,121): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(169,131): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(172,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(172,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(184,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(184,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(198,79): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(203,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(204,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(236,40): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(240,40): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(244,40): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(90,6): warning C4101: 'x': unreferenced local variable
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(314,82): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(372,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Other Projects\Gad173_Project_Repo\GAD173 Project\Level Editor\App.cpp(443,79): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
   Level Editor.vcxproj -> E:\Other Projects\Gad173_Project_Repo\GAD173 Project\x64\Debug\Level Editor.exe

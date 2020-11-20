@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    int x, y;
+    int x;
 
     // declare
     ifstream newFile("example.txt");
@@ -19,9 +19,8 @@ int main() {
         while (!newFile.eof())
         {
             // only works with tab separated values
-            newFile >> x >> y;
-
-            cout << x << "\t" << y << endl;
+            newFile >> x;
+            cout << x << endl;
         }
 
         // close

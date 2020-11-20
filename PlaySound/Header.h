@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Audio.hpp>
+
 class SoundManager
 {
 private:
@@ -8,5 +9,4 @@ private:
 public:
     SoundManager();
     void playMissileLaunch();
-
 };

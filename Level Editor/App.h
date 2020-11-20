@@ -1,13 +1,14 @@
 #pragma once
 #include "SFML/Graphics.hpp"
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <fstream>
 #include <string>
 
 //Global Variables
 //Declare an array of bricks
-const int ROWS = 3;
-const int COLS = 7;
+const int ROWS = 4;
+const int COLS = 8;
 
 class App
 {
@@ -47,8 +48,10 @@ private:
 	sf::Font font;
 	sf::Text atext;
 	// declare
-	std::ofstream myfile;
-	std::ifstream newfile;
+	std::fstream myfile;
+	//std::ifstream newFile;
+	std::ofstream outfile;
+	
 
 	int buttonLength;
 	int buttonHeight;
@@ -62,8 +65,46 @@ private:
 	sf::RectangleShape quitButton;
 	sf::Text quitBtnText;
 	bool levelPaused;
+	bool gameOver;
+	bool gameWon;
+	bool customLevel;
 
-	//Pointers
+	sf::Text gameOverText;
+	sf::Text menuBtnText;
+	sf::RectangleShape menuButton;
+
+	//Custom Level Menu
+	sf::Text customMenuBtnText;
+	sf::RectangleShape customMenuButton;
+	sf::Text customPlayBtnText;
+	sf::RectangleShape customPlayButton;
+
+	sf::Text gameWonText;
+	sf::Text gameWonScoreText;
+	int noOfBricks;
+	int x[ROWS][COLS] = { };
+
+	// sound
+	sf::SoundBuffer ballBounceBuffer;
+	sf::SoundBuffer blockHitBuffer;
+	sf::SoundBuffer buttonClickBuffer;
+
+	sf::Sound ballBounce;
+	sf::Sound blockHit;
+	sf::Sound buttonClick;
+
+	sf::Texture bgTexture;
+	sf::Sprite bgSprite;
+	sf::Texture blockTexture;
+	sf::Texture paddleTexture;
+	sf::Texture ballTexture;
+	sf::Texture buttonCoverTexture;
+
+	sf::Sprite lives1;
+	sf::Sprite lives2;
+	sf::Sprite lives3;
+
+	int livesLeft;
 
 
 public:
@@ -77,6 +118,7 @@ public:
 	void Run();
 	void StartLevel();
 	void InitializeArrayOfBricks();
+	void InitializeCustomArrayOfBricks();
 };
 
 

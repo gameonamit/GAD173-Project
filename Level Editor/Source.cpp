@@ -2,8 +2,7 @@
 
 int main()
 {
-
-	App game("Level Editor", 1920, 1080, 32);
+	App game("Block Breaker: Classic", 1920, 1080, 32);
 
 	if (!game.Init())
 	{

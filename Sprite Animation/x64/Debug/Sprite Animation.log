@@ -1,0 +1,3 @@
+﻿  SpriteAnimation.cpp
+D:\Other Projects\Gad173_Project_Repo\GAD173 Project\Sprite Animation\SpriteAnimation.cpp(20,23): warning C4305: 'argument': truncation from 'double' to 'float'
+  Sprite Animation.vcxproj -> D:\Other Projects\Gad173_Project_Repo\GAD173 Project\x64\Debug\Sprite Animation.exe

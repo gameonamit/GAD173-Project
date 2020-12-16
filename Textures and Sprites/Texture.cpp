@@ -1,70 +1,61 @@
-#include <SFML/Graphics.hpp>
-#include <SFML/Audio.hpp>
 #include <iostream>
+#include <SFML/Graphics.hpp>
 
 using namespace std;
 
 int main()
 {
-	sf::RenderWindow Window(sf::VideoMode(640, 480), "SFML works!");
+	sf::RenderWindow window(sf::VideoMode(1920, 1080), "Hello SFML World!");
 
-	const int ROWS = 3;
-	const int COLS = 5;
-	float length = 100;
-	float height = 40;
+	// declaration and initialisation
+	sf::CircleShape circle(100.0f);
 
-	float gap = 10;
-	float edgeGap = (Window.getSize().x - COLS * length - (COLS - 1) * gap) / 2;
+	//sf::RectangleShape brick(sf::Vector2f(200, 100));
 
-	sf::Texture BGtexture;
-	if (!BGtexture.loadFromFile("galaxy.jpg"))
+	//brick.setPosition(1000, 500);
+
+	// load a background image
+	sf::Image backgroundImage;
+	if (!backgroundImage.loadFromFile("galaxy.jpg"))
 	{
-		// error...
-	}	
-	sf::Sprite BGSprite;
-	BGSprite.setTexture(BGtexture);
-
-	sf::Texture BrickTexture;
-	if (!BrickTexture.loadFromFile("brick.jpg"))
-	{
-		// error...
+		cout << "Unable to load image" << endl;
 	}
 
-	// declare an array of bricks
-	sf::RectangleShape Bricks[ROWS][COLS];
+	// create a texture from the image
+	sf::Texture backgroundTexture;
+	backgroundTexture.loadFromImage(backgroundImage);
 
-	// initialise the bricks
-	for (int row = 0; row < ROWS; ++row) {
-		for (int col = 0; col < COLS; ++col)
-		{
-			Bricks[row][col].setSize(sf::Vector2f(length, height));
-			Bricks[row][col].setPosition(edgeGap + col * (length + gap), 20 + row * (height + gap));
-			Bricks[row][col].setTexture(&BrickTexture);
-		}
+	// create a sprite from the texture
+	sf::Sprite backgroundSprite;
+	backgroundSprite.setTexture(backgroundTexture);
+	backgroundSprite.setScale(float(window.getSize().x) / backgroundTexture.getSize().x, float(window.getSize().y) / backgroundTexture.getSize().y);
+
+	// load a texture
+	sf::Texture texture;
+	if (!texture.loadFromFile("brick.jpg"))
+	{
+		cout << "Unable to load texture" << endl;
 	}
 
-	while (Window.isOpen())
+	// declare a sprite
+	sf::Sprite sprite;
+	sprite.setTexture(texture);
+	sprite.setPosition(1000, 500);
+
+	while (window.isOpen())
 	{
 		sf::Event event;
-		while (Window.pollEvent(event))
+		while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed)
-				Window.close();
+				window.close();
 		}
-
-		Window.clear();
-		Window.draw(BGSprite);
-		// draw the bricks
-		for (int row = 0; row < ROWS; ++row) {
-			for (int col = 0; col < COLS; ++col)
-			{
-				//Bricks[row][col].setSize(sf::Vector2f(length, height));
-				//Bricks[row][col].setPosition(edgeGap + col * (length + gap), edgeGap + row * (height + gap));
-				Window.draw(Bricks[row][col]);
-			}
-		}
-		Window.display();
+		window.clear();
+		window.draw(backgroundSprite);
+		window.draw(circle);
+		//window.draw(brick);
+		window.draw(sprite);
+		window.display();
 	}
-
-	return 0;
+	return EXIT_SUCCESS;
 }
